@@ -1,0 +1,809 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #33475b;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 768px) {
+
+    .top-bar-section {
+        width: 100%;
+        background-color: #30343a;
+        height: 50px;
+    }
+
+    .top-bar-left-container {
+        width: 200px;
+        line-height: 50px;
+        float: left;
+        letter-spacing: 1px;
+    }
+
+    .top-bar-left-container h3 {
+        padding-left: 10px;
+        color: whitesmoke;
+    }
+
+    .top-bar-left-container span {
+        color: #86c232;
+    }
+
+    .top-bar-right-container {
+        margin-top: 10px;
+        width: 200px;
+        float: right;
+    }
+
+    .social-icon-box {
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .social-icon-box:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    }
+
+    #facebook {
+        background-color: #3b5998;
+    }
+
+    #facebook img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    #twitter {
+        background-color: #1DA1F2;
+    }
+
+    #twitter img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    #instagram {
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    }
+
+    #instagram img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 7px;
+    }
+
+    #whatsapp {
+        background-color: #25d366;
+    }
+
+    #whatsapp img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    /*----- Logo Section -----*/
+
+    .logo-container {
+        float: left;
+        margin-left: 30px;
+    }
+
+    .l-edit {
+        margin-left: 50px;
+        padding-right: 10px;
+    }
+
+    .logo h2 {
+        float: left;
+        margin-top: 19px;
+        margin-bottom: 14px;
+        letter-spacing: 5px;
+    }
+
+    .logo span {
+        color: #86c232;
+    }
+
+    .burger-menu-container {
+        float: right;
+        margin-top: 16px;
+        margin-right: 20px;
+    }
+
+    .burger-menu-container img {
+        width: 40px;
+    }
+
+    /*----- Nav Bar Section -----*/
+
+    #nav-mob {
+        display: none;
+    }
+
+    #nav-pc-tab {
+        display: none !important;
+    }
+
+    .nav-bar-section {
+        width: 100%;
+        background-color: #30343a;
+        overflow: hidden;
+    }
+
+    .nav-bar-container ul {
+        text-align: center;
+    }
+
+    .nav-bar-container a {
+        color: whitesmoke;
+        display: block;
+        padding: 10px;
+        font-size: 19px;
+    }
+
+    .nav-bar-container a:hover {
+        color: #86c232;
+        transition: 0.4s;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+    
+    /*----- Rules Section -----*/
+    
+    .rules-container{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    
+    .rules-box{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+    
+    .rules-box h3{
+       margin-top: 5px;
+       margin-bottom: 5px;
+    }
+    
+    .rules-box p{
+       margin: 8px;
+    }
+
+    .box-line-box{
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+    
+    .box-line-box-short{
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    /*----- Footer Section -----*/
+
+    .footer-section {
+        background-color: #30343a;
+        width: 100%;
+        border-top: 3px solid #86c232;
+        padding-bottom: 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+    }
+
+    .footer-content-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer-start-header {
+        padding-top: 20px;
+    }
+
+    .footer-headers {
+        margin-top: 20px;
+        color: whitesmoke;
+        font-size: 17px;
+    }
+
+    .line-edit-short {
+        width: 60%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #86c232;
+        margin-top: 8px;
+    }
+
+    .footer-content-container p {
+        color: whitesmoke;
+
+    }
+
+    .footer-content-container a {
+        color: whitesmoke;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .footer-wrapper {
+        margin-top: 20px;
+    }
+
+    .footer-content-container iframe {
+        margin-top: 20px;
+        width: 80%
+    }
+
+    .footer-content-container a:hover {
+        color: #86c232;
+        display: block;
+    }
+
+}
+
+/*----- For Tablet -----*/
+
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+
+    .top-bar-section {
+        width: 100%;
+        background-color: #30343a;
+        height: 50px;
+    }
+
+    .top-bar-left-container {
+        width: 200px;
+        line-height: 50px;
+        float: left;
+    }
+
+    .top-bar-left-container h3 {
+        padding-left: 10px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+    }
+
+    .top-bar-left-container span {
+        color: #86c232;
+    }
+
+    .top-bar-right-container {
+        margin-top: 10px;
+        width: 200px;
+        float: right;
+    }
+
+    .social-icon-box {
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .social-icon-box:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    }
+
+    #facebook {
+        background-color: #3b5998;
+    }
+
+    #facebook img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    #twitter {
+        background-color: #1DA1F2;
+    }
+
+    #twitter img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    #instagram {
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    }
+
+    #instagram img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 7px;
+    }
+
+    #whatsapp {
+        background-color: #25d366;
+    }
+
+    #whatsapp img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    /*----- Logo Section -----*/
+
+    .logo-section {
+        width: 100%;
+        height: 100px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .l-edit {
+        margin-left: 50px;
+        padding-right: 10px;
+    }
+
+    .logo h2 {
+        float: left;
+        line-height: 100px;
+        letter-spacing: 5px;
+    }
+
+
+    .logo span {
+        color: #86c232;
+    }
+
+    #hide-pc-tab {
+        display: none;
+    }
+
+    /*----- Nav Bar Section -----*/
+
+    #nav-mob {
+        display: none !important;
+    }
+
+    .nav-bar-section {
+        width: 100%;
+        height: 60px;
+        background-color: #30343a;
+        overflow: hidden;
+    }
+
+    .nav-bar-container {
+        height: 60px;
+    }
+
+    .nav-bar-container ul {
+        text-align: center;
+    }
+
+    .nav-bar-container li {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: 16px;
+    }
+
+    .nav-bar-container a {
+        color: whitesmoke;
+    }
+
+    .nav-bar-container a:hover {
+        color: #86c232;
+        transition: 0.4s;
+    }
+
+    /*----- Rules Section -----*/
+
+    .rules-container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .rules-box {
+        width: 46%;
+        height: 400px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .rules-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .rules-box p {
+        margin: 8px;
+    }
+
+    .box-line-box {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .box-line-box-short {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    /*----- Footer Section -----*/
+
+    .footer-section {
+        background-color: #30343a;
+        width: 100%;
+        border-top: 3px solid #86c232;
+        padding-bottom: 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer-content-container {
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .footer-headers {
+        margin-top: 20px;
+        color: whitesmoke;
+        font-size: 17px;
+    }
+
+    .line-edit-short {
+        width: 60%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #86c232;
+        margin-top: 8px;
+    }
+
+    .footer-content-container p {
+        color: whitesmoke;
+
+    }
+
+    .footer-content-container a {
+        color: whitesmoke;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .footer-wrapper {
+        margin-top: 20px;
+    }
+
+    .footer-content-container iframe {
+        margin-top: 20px;
+    }
+
+    .footer-content-container a:hover {
+        color: #86c232;
+        display: block;
+    }
+
+}
+
+/*----- For Desktop -----*/
+@media only screen and (min-width: 1050px) {
+
+    .top-bar-section {
+        width: 100%;
+        background-color: #30343a;
+        height: 50px;
+    }
+
+    .top-bar-container {
+        width: 990px;
+        margin: auto;
+        height: 50px;
+    }
+
+    .top-bar-left-container {
+        width: 200px;
+        line-height: 50px;
+        float: left;
+    }
+
+    .top-bar-left-container h3 {
+        padding-left: 10px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+    }
+
+    .top-bar-left-container span {
+        color: #86c232;
+    }
+
+    .top-bar-right-container {
+        margin-top: 10px;
+        width: 200px;
+        float: right;
+    }
+
+    .social-icon-box {
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .social-icon-box:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    }
+
+    #facebook {
+        background-color: #3b5998;
+    }
+
+    #facebook img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    #twitter {
+        background-color: #1DA1F2;
+    }
+
+    #twitter img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    #instagram {
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    }
+
+    #instagram img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 7px;
+    }
+
+    #whatsapp {
+        background-color: #25d366;
+    }
+
+    #whatsapp img {
+        width: 15px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    /*----- Logo Section -----*/
+
+    .logo-section {
+        width: 100%;
+        height: 100px;
+        margin-top: 5px;
+    }
+
+    .logo-container {
+        width: 1000px;
+        margin: auto;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .l-edit {
+        margin-left: 50px;
+        padding-right: 10px;
+    }
+
+    .logo h2 {
+        float: left;
+        line-height: 100px;
+        letter-spacing: 5px;
+    }
+
+    .logo span {
+        color: #86c232;
+    }
+
+    #hide-pc-tab {
+        display: none;
+    }
+
+    /*----- Nav Bar Section -----*/
+
+    #nav-mob {
+        display: none !important;
+    }
+
+    .nav-bar-section {
+        width: 100%;
+        height: 60px;
+        background-color: #30343a;
+        overflow: hidden;
+    }
+
+    .nav-bar-container {
+        height: 60px;
+        width: 1000px;
+        margin: auto;
+    }
+
+    .nav-bar-container ul {
+        text-align: center;
+    }
+
+    .nav-bar-container li {
+        display: inline-block;
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    .nav-bar-container a {
+        color: whitesmoke;
+    }
+
+    .nav-bar-container a:hover {
+        color: #86c232;
+        transition: 0.4s;
+    }
+
+    /*----- Rules Section -----*/
+
+    .rules-container {
+        width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .rules-box {
+        width: 300px;
+        height: 400px;
+        margin-left: 25px;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .rules-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .rules-box p {
+        margin: 8px;
+    }
+
+    .box-line-box {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .box-line-box-short {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    /*----- Footer Section -----*/
+
+    .footer-section {
+        background-color: #30343a;
+        width: 100%;
+        border-top: 3px solid #86c232;
+    }
+
+    .footer-container {
+        width: 1000px;
+        margin: auto;
+    }
+
+    .footer-content-container {
+        width: 300px;
+        margin-left: 12px;
+        margin-right: 12px;
+        display: inline-block;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .footer-headers {
+        margin-top: 20px;
+        color: whitesmoke;
+        font-size: 17px;
+    }
+
+    .line-edit-short {
+        width: 60%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #86c232;
+        margin-top: 8px;
+    }
+
+    .footer-content-container p {
+        color: whitesmoke;
+
+    }
+
+    .footer-content-container a {
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+    .footer-wrapper {
+        margin-top: 20px;
+    }
+
+    .footer-content-container iframe {
+        margin-top: 20px;
+    }
+
+    .footer-content-container a:hover {
+        color: #86c232;
+    }
+
+}
