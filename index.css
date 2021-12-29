@@ -11,7 +11,7 @@ a {
 
 /*----- For Mobile -----*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .top-bar-section {
         width: 100%;
@@ -231,67 +231,6 @@ a {
         height: 1px;
         border-top: 1px solid #dbe2ea;
     }
-
-    /*----- Footer Section -----*/
-
-    .footer-section {
-        background-color: #30343a;
-        width: 100%;
-        border-top: 3px solid #86c232;
-        padding-bottom: 20px;
-    }
-
-    .footer-container {
-        width: 100%;
-    }
-
-    .footer-content-container {
-        width: 100%;
-        text-align: center;
-    }
-
-    #footer-start-header {
-        padding-top: 20px;
-    }
-
-    .footer-headers {
-        margin-top: 20px;
-        color: whitesmoke;
-        font-size: 17px;
-    }
-
-    .line-edit-short {
-        width: 60%;
-        margin: auto;
-        height: 1px;
-        border-top: 1px solid #86c232;
-        margin-top: 8px;
-    }
-
-    .footer-content-container p {
-        color: whitesmoke;
-
-    }
-
-    .footer-content-container a {
-        color: whitesmoke;
-        display: block;
-        padding-bottom: 15px;
-    }
-
-    .footer-wrapper {
-        margin-top: 20px;
-    }
-
-    .footer-content-container iframe {
-        margin-top: 20px;
-        width: 80%
-    }
-
-    .footer-content-container a:hover {
-        color: #86c232;
-        display: block;
-    }
     
     /*----- Main Body Section -----*/
 
@@ -350,12 +289,81 @@ a {
         margin-top: 40px;
         width: 100%;
     }
+    
+    /*----- Footer Section -----*/
+
+    .footer-section {
+        background-color: #30343a;
+        width: 100%;
+        border-top: 3px solid #86c232;
+        padding-bottom: 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+    }
+
+    .footer-content-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer-start-header {
+        padding-top: 20px;
+    }
+
+    .footer-headers {
+        margin-top: 20px;
+        color: whitesmoke;
+        font-size: 17px;
+    }
+
+    .line-edit-short {
+        width: 60%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #86c232;
+        margin-top: 8px;
+    }
+
+    .footer-content-container p {
+        color: whitesmoke;
+    }
+
+    .footer-content-container a {
+        color: whitesmoke;
+    }
+
+    .help-info-li li{
+        margin: 10px;
+    }
+    
+    .contact-footer-li li{
+        margin-top: 5px;
+    }
+    
+    .contact-footer-li p{
+        margin-top: 20px;
+    }
+    
+    .footer-wrapper {
+        margin-top: 20px;
+    }
+
+    .footer-content-container iframe {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .footer-content-container a:hover {
+        color: #86c232;
+    }
 
 }
 
 /*----- For Tablet -----*/
 
-@media screen and (min-width: 768px) and (max-width: 1050px) {
+@media screen and (min-width: 769px) and (max-width: 1051px) {
 
     .top-bar-section {
         width: 100%;
@@ -591,68 +599,6 @@ a {
         height: 1px;
         border-top: 1px solid #dbe2ea;
     }
-
-    /*----- Footer Section -----*/
-
-    .footer-section {
-        background-color: #30343a;
-        width: 100%;
-        border-top: 3px solid #86c232;
-        padding-bottom: 20px;
-    }
-
-    .footer-container {
-        width: 100%;
-        margin: auto;
-    }
-
-    .footer-content-container {
-        width: 30%;
-        margin-left: 10px;
-        margin-right: 10px;
-        display: inline-block;
-        height: 400px;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    .footer-headers {
-        margin-top: 20px;
-        color: whitesmoke;
-        font-size: 17px;
-    }
-
-    .line-edit-short {
-        width: 60%;
-        margin: auto;
-        height: 1px;
-        border-top: 1px solid #86c232;
-        margin-top: 8px;
-    }
-
-    .footer-content-container p {
-        color: whitesmoke;
-
-    }
-
-    .footer-content-container a {
-        color: whitesmoke;
-        display: block;
-        padding-bottom: 15px;
-    }
-
-    .footer-wrapper {
-        margin-top: 20px;
-    }
-
-    .footer-content-container iframe {
-        margin-top: 20px;
-    }
-
-    .footer-content-container a:hover {
-        color: #86c232;
-        display: block;
-    }
     
     /*----- Main Body Section -----*/
 
@@ -714,11 +660,86 @@ a {
         width: 50%;
         float: right;
     }
+    
+    /*----- Footer Section -----*/
+
+    .footer-section {
+        background-color: #30343a;
+        width: 100%;
+        border-top: 3px solid #86c232;
+        padding-bottom: 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer-content-container {
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .footer-headers {
+        margin-top: 20px;
+        color: whitesmoke;
+        font-size: 17px;
+    }
+
+    .line-edit-short {
+        width: 60%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #86c232;
+        margin-top: 8px;
+    }
+
+    .footer-content-container p {
+        color: whitesmoke;
+
+    }
+
+    .footer-content-container a {
+        color: whitesmoke;
+    }
+
+    .footer-wrapper {
+        margin-top: 20px;
+    }
+    
+    .help-info-li li{
+        margin-top: 10px;
+    }
+    
+    .contact-footer-li p{
+        margin-top: 10px;
+    }
+    
+    .contact-footer-li l{
+       margin: 10px;
+    }
+    
+    .li-social{
+        margin: 10px;
+    }
+
+    .footer-content-container iframe {
+        margin-top: 20px;
+    }
+
+    .footer-content-container a:hover {
+        color: #86c232;
+    }
 
 }
 
 /*----- For Desktop -----*/
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1051px) {
 
     .top-bar-section {
         width: 100%;
@@ -1083,6 +1104,22 @@ a {
 
     .footer-wrapper {
         margin-top: 20px;
+    }
+    
+    .help-info-li li{
+        margin-top: 10px;
+    }
+    
+    .contact-footer-li p{
+        margin-top: 10px;
+    }
+    
+    .contact-footer-li l{
+       margin: 10px;
+    }
+    
+    .li-social{
+        margin: 10px;
     }
 
     .footer-content-container iframe {
