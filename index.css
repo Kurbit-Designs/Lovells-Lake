@@ -20,24 +20,17 @@ a {
     }
 
     .top-bar-left-container {
-        line-height: 50px;
-        float: left;
-        letter-spacing: 1px;
+        display: none !important;
     }
-
-    .top-bar-left-container h3 {
-        padding-left: 10px;
-        color: whitesmoke;
-    }
-
+    
     .top-bar-left-container span {
         color: #86c232;
     }
 
     .top-bar-right-container {
-        margin-top: 10px;
         width: 160px;
-        float: right;
+        margin: auto;
+        padding-top: 10px;
     }
 
     .social-icon-box {
@@ -95,20 +88,18 @@ a {
 
     /*----- 2nd Section logo + Contact info -----*/
 
-    .logo-container {
-        float: left;
-        margin-left: 30px;
+    .logo-section{
+        width: 100%;
+        overflow: hidden;
     }
-
-    .l-edit {
-        margin-left: 50px;
-        padding-right: 10px;
+    
+    .logo{
+        text-align: center;
     }
 
     .logo h2 {
-        float: left;
         margin-top: 19px;
-        margin-bottom: 14px;
+        margin-bottom: 19px;
         letter-spacing: 5px;
     }
 
@@ -117,19 +108,23 @@ a {
     }
 
     .burger-menu-container {
-        float: right;
-        margin-top: 16px;
-        margin-right: 20px;
+      text-align: center;
+      background-color: #30343a;
+      height: 50px;
     }
 
     .burger-menu-container img {
         width: 40px;
     }
+    
+    #menu-btn{
+        margin: 10px;
+    }
 
     /*----- Nav Bar Section -----*/
 
     #nav-mob {
-        display: none;
+        display: none; !important;
     }
 
     #nav-pc-tab {
@@ -156,10 +151,6 @@ a {
     .nav-bar-container a:hover {
         color: #86c232;
         transition: 0.4s;
-    }
-
-    .hero-img {
-        width: 100%;
     }
 
     /*----- 1st content Section -----*/
