@@ -101,7 +101,7 @@ a {
 
     .logo h2 {
         color: whitesmoke;
-        margin-top: 19px;
+        margin-top: 15px;
         margin-bottom: 14px;
         letter-spacing: 5px;
     }
@@ -112,12 +112,12 @@ a {
 
     .burger-menu-container {
         float: right;
-        margin-top: 23px;
+        margin-top: 20px;
         margin-right: 20px;
     }
 
     .burger-menu-container img {
-        width: 35px;
+        width: 30px;
     }
 
     /*----- Nav Bar Section -----*/
