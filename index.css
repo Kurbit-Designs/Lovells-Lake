@@ -20,7 +20,6 @@ a {
     }
 
     .top-bar-left-container {
-        width: 200px;
         line-height: 50px;
         float: left;
         letter-spacing: 1px;
@@ -37,7 +36,7 @@ a {
 
     .top-bar-right-container {
         margin-top: 10px;
-        width: 200px;
+        width: 160px;
         float: right;
     }
 
@@ -45,7 +44,7 @@ a {
         width: 30px;
         height: 30px;
         float: right;
-        margin-right: 10px;
+        margin-right: 5px;
         border-radius: 50px;
         overflow: hidden;
     }
@@ -532,7 +531,7 @@ a {
 
     .content-box-fish {
         display: inline-block;
-        float: right;
+        margin-left: 89px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
@@ -546,7 +545,6 @@ a {
 
     .content-box-staff {
         display: inline-block;
-        float: left;
         margin-top: 20px;
         margin-bottom: 30px;
     }
