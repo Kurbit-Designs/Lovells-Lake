@@ -91,15 +91,18 @@ a {
     .logo-section{
         width: 100%;
         overflow: hidden;
+         background-color: #30343a;
     }
     
     .logo{
-        text-align: center;
+        float: left;
+        margin-left: 20px;
     }
 
     .logo h2 {
+        color: whitesmoke;
         margin-top: 19px;
-        margin-bottom: 19px;
+        margin-bottom: 14px;
         letter-spacing: 5px;
     }
 
@@ -108,17 +111,13 @@ a {
     }
 
     .burger-menu-container {
-      text-align: center;
-      background-color: #30343a;
-      height: 50px;
+        float: right;
+        margin-top: 23px;
+        margin-right: 20px;
     }
 
     .burger-menu-container img {
-        width: 40px;
-    }
-    
-    #menu-btn{
-        margin: 10px;
+        width: 35px;
     }
 
     /*----- Nav Bar Section -----*/
