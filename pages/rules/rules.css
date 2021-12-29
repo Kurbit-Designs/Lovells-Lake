@@ -11,24 +11,18 @@ a {
 
 /*----- For Mobile -----*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .top-bar-section {
         width: 100%;
         background-color: #30343a;
         height: 50px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 
     .top-bar-left-container {
-        width: 200px;
-        line-height: 50px;
-        float: left;
-        letter-spacing: 1px;
-    }
-
-    .top-bar-left-container h3 {
-        padding-left: 10px;
-        color: whitesmoke;
+        display: none !important;
     }
 
     .top-bar-left-container span {
@@ -36,16 +30,16 @@ a {
     }
 
     .top-bar-right-container {
-        margin-top: 10px;
-        width: 200px;
-        float: right;
+        width: 160px;
+        margin: auto;
+        padding-top: 10px;
     }
 
     .social-icon-box {
         width: 30px;
         height: 30px;
         float: right;
-        margin-right: 10px;
+        margin-right: 5px;
         border-radius: 50px;
         overflow: hidden;
     }
@@ -94,21 +88,23 @@ a {
         margin-left: 8px;
     }
 
-    /*----- Logo Section -----*/
+    /*----- 2nd Section logo + Contact info -----*/
 
-    .logo-container {
-        float: left;
-        margin-left: 30px;
+    .logo-section {
+        width: 100%;
+        overflow: hidden;
+        background-color: #30343a;
+        border-top: solid #4d535c 1px;
     }
 
-    .l-edit {
-        margin-left: 50px;
-        padding-right: 10px;
+    .logo {
+        float: left;
+        margin-left: 20px;
     }
 
     .logo h2 {
-        float: left;
-        margin-top: 19px;
+        color: whitesmoke;
+        margin-top: 15px;
         margin-bottom: 14px;
         letter-spacing: 5px;
     }
@@ -119,18 +115,19 @@ a {
 
     .burger-menu-container {
         float: right;
-        margin-top: 16px;
+        margin-top: 20px;
         margin-right: 20px;
     }
 
     .burger-menu-container img {
-        width: 40px;
+        width: 30px;
     }
 
     /*----- Nav Bar Section -----*/
 
     #nav-mob {
         display: none;
+         !important;
     }
 
     #nav-pc-tab {
@@ -159,20 +156,16 @@ a {
         transition: 0.4s;
     }
 
-    .hero-img {
-        width: 100%;
-    }
-    
     /*----- Rules Section -----*/
-    
-    .rules-container{
+
+    .rules-container {
         width: 100%;
         margin: auto;
         overflow: hidden;
         padding-bottom: 20px;
     }
-    
-    .rules-box{
+
+    .rules-box {
         width: 90%;
         height: 400px;
         margin: auto;
@@ -184,23 +177,23 @@ a {
         border-bottom: 3px solid #86c232;
         overflow: hidden;
     }
-    
-    .rules-box h3{
-       margin-top: 5px;
-       margin-bottom: 5px;
-    }
-    
-    .rules-box p{
-       margin: 8px;
+
+    .rules-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
-    .box-line-box{
+    .rules-box p {
+        margin: 8px;
+    }
+
+    .box-line-box {
         width: 90%;
         border-top: 1px solid #dbe2ea;
         margin: auto;
     }
-    
-    .box-line-box-short{
+
+    .box-line-box-short {
         width: 50px;
         border-top: 1px solid #dbe2ea;
         margin: auto;
@@ -244,13 +237,22 @@ a {
 
     .footer-content-container p {
         color: whitesmoke;
-
     }
 
     .footer-content-container a {
         color: whitesmoke;
-        display: block;
-        padding-bottom: 15px;
+    }
+
+    .help-info-li li {
+        margin: 10px;
+    }
+
+    .contact-footer-li li {
+        margin-top: 5px;
+    }
+
+    .contact-footer-li p {
+        margin-top: 20px;
     }
 
     .footer-wrapper {
@@ -259,19 +261,17 @@ a {
 
     .footer-content-container iframe {
         margin-top: 20px;
-        width: 80%
+        width: 80%;
     }
 
     .footer-content-container a:hover {
         color: #86c232;
-        display: block;
     }
 
 }
 
 /*----- For Tablet -----*/
-
-@media screen and (min-width: 768px) and (max-width: 1050px) {
+@media screen and (min-width: 769px) and (max-width: 1051px) {
 
     .top-bar-section {
         width: 100%;
@@ -354,7 +354,7 @@ a {
         margin-left: 8px;
     }
 
-    /*----- Logo Section -----*/
+    /*----- 2nd Section logo + Contact info -----*/
 
     .logo-section {
         width: 100%;
@@ -516,12 +516,26 @@ a {
 
     .footer-content-container a {
         color: whitesmoke;
-        display: block;
-        padding-bottom: 15px;
     }
 
     .footer-wrapper {
         margin-top: 20px;
+    }
+
+    .help-info-li li {
+        margin-top: 10px;
+    }
+
+    .contact-footer-li p {
+        margin-top: 10px;
+    }
+
+    .contact-footer-li l {
+        margin: 10px;
+    }
+
+    .li-social {
+        margin: 10px;
     }
 
     .footer-content-container iframe {
@@ -530,13 +544,13 @@ a {
 
     .footer-content-container a:hover {
         color: #86c232;
-        display: block;
     }
 
 }
 
 /*----- For Desktop -----*/
-@media only screen and (min-width: 1050px) {
+
+@media only screen and (min-width: 1051px) {
 
     .top-bar-section {
         width: 100%;
@@ -625,7 +639,7 @@ a {
         margin-left: 8px;
     }
 
-    /*----- Logo Section -----*/
+    /*----- 2nd Section logo + Contact info -----*/
 
     .logo-section {
         width: 100%;
@@ -702,6 +716,7 @@ a {
         color: #86c232;
         transition: 0.4s;
     }
+
 
     /*----- Rules Section -----*/
 
@@ -798,6 +813,22 @@ a {
         margin-top: 20px;
     }
 
+    .help-info-li li {
+        margin-top: 10px;
+    }
+
+    .contact-footer-li p {
+        margin-top: 10px;
+    }
+
+    .contact-footer-li l {
+        margin: 10px;
+    }
+
+    .li-social {
+        margin: 10px;
+    }
+
     .footer-content-container iframe {
         margin-top: 20px;
     }
@@ -805,5 +836,6 @@ a {
     .footer-content-container a:hover {
         color: #86c232;
     }
+
 
 }
