@@ -17,6 +17,8 @@ a {
         width: 100%;
         background-color: #30343a;
         height: 50px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 
     .top-bar-left-container {
@@ -92,6 +94,7 @@ a {
         width: 100%;
         overflow: hidden;
          background-color: #30343a;
+        border-top: solid #dbe2ea 1px;
     }
     
     .logo{
