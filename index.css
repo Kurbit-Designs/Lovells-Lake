@@ -24,7 +24,7 @@ a {
     .top-bar-left-container {
         display: none !important;
     }
-    
+
     .top-bar-left-container span {
         color: #86c232;
     }
@@ -90,14 +90,14 @@ a {
 
     /*----- 2nd Section logo + Contact info -----*/
 
-    .logo-section{
+    .logo-section {
         width: 100%;
         overflow: hidden;
-         background-color: #30343a;
+        background-color: #30343a;
         border-top: solid #4d535c 1px;
     }
-    
-    .logo{
+
+    .logo {
         float: left;
         margin-left: 20px;
     }
@@ -126,7 +126,8 @@ a {
     /*----- Nav Bar Section -----*/
 
     #nav-mob {
-        display: none; !important;
+        display: none;
+         !important;
     }
 
     #nav-pc-tab {
@@ -224,7 +225,7 @@ a {
         height: 1px;
         border-top: 1px solid #dbe2ea;
     }
-    
+
     /*----- Main Body Section -----*/
 
     .main-section-body {
@@ -239,12 +240,12 @@ a {
         margin-top: 40px;
         overflow: hidden;
     }
-    
-    .lake-info-container h4{
+
+    .lake-info-container h4 {
         letter-spacing: 2px;
     }
-    
-    .lake-info-container h1{
+
+    .lake-info-container h1 {
         letter-spacing: 5px;
         color: #86c232;
         margin-bottom: 10px;
@@ -256,9 +257,10 @@ a {
         padding-right: 60px;
         line-height: 23px;
         font-size: 17px;
-        margin-bottom: 20px;;
+        margin-bottom: 20px;
+        ;
     }
-    
+
     .lake-info-container h3 {
         margin-bottom: 10px;
         letter-spacing: 6px;
@@ -282,7 +284,7 @@ a {
         margin-top: 40px;
         width: 100%;
     }
-    
+
     /*----- Footer Section -----*/
 
     .footer-section {
@@ -327,18 +329,18 @@ a {
         color: whitesmoke;
     }
 
-    .help-info-li li{
+    .help-info-li li {
         margin: 10px;
     }
-    
-    .contact-footer-li li{
+
+    .contact-footer-li li {
         margin-top: 5px;
     }
-    
-    .contact-footer-li p{
+
+    .contact-footer-li p {
         margin-top: 20px;
     }
-    
+
     .footer-wrapper {
         margin-top: 20px;
     }
@@ -592,7 +594,7 @@ a {
         height: 1px;
         border-top: 1px solid #dbe2ea;
     }
-    
+
     /*----- Main Body Section -----*/
 
     .main-section-body {
@@ -607,12 +609,12 @@ a {
         margin-top: 40px;
         overflow: hidden;
     }
-    
-    .lake-info-container h4{
+
+    .lake-info-container h4 {
         letter-spacing: 2px;
     }
-    
-    .lake-info-container h1{
+
+    .lake-info-container h1 {
         letter-spacing: 5px;
         color: #86c232;
         margin-bottom: 10px;
@@ -624,9 +626,10 @@ a {
         padding-right: 60px;
         line-height: 30px;
         font-size: 17px;
-        margin-bottom: 20px;;
+        margin-bottom: 20px;
+        ;
     }
-    
+
     .lake-info-container h3 {
         margin-bottom: 10px;
         letter-spacing: 6px;
@@ -653,7 +656,7 @@ a {
         width: 50%;
         float: right;
     }
-    
+
     /*----- Footer Section -----*/
 
     .footer-section {
@@ -704,20 +707,20 @@ a {
     .footer-wrapper {
         margin-top: 20px;
     }
-    
-    .help-info-li li{
+
+    .help-info-li li {
         margin-top: 10px;
     }
-    
-    .contact-footer-li p{
+
+    .contact-footer-li p {
         margin-top: 10px;
     }
-    
-    .contact-footer-li l{
-       margin: 10px;
+
+    .contact-footer-li l {
+        margin: 10px;
     }
-    
-    .li-social{
+
+    .li-social {
         margin: 10px;
     }
 
@@ -732,6 +735,7 @@ a {
 }
 
 /*----- For Desktop -----*/
+
 @media only screen and (min-width: 1051px) {
 
     .top-bar-section {
@@ -898,7 +902,6 @@ a {
         color: #86c232;
         transition: 0.4s;
     }
-
     /*----- Hero Section -----*/
 
     .hero-img-container {
@@ -1001,12 +1004,12 @@ a {
         margin-top: 40px;
         overflow: hidden;
     }
-    
-    .lake-info-container h4{
+
+    .lake-info-container h4 {
         letter-spacing: 2px;
     }
-    
-    .lake-info-container h1{
+
+    .lake-info-container h1 {
         letter-spacing: 5px;
         color: #86c232;
         margin-bottom: 10px;
@@ -1018,9 +1021,10 @@ a {
         padding-right: 60px;
         line-height: 23px;
         font-size: 17px;
-        margin-bottom: 20px;;
+        margin-bottom: 20px;
+        ;
     }
-    
+
     .lake-info-container h3 {
         margin-bottom: 10px;
         letter-spacing: 6px;
@@ -1098,20 +1102,20 @@ a {
     .footer-wrapper {
         margin-top: 20px;
     }
-    
-    .help-info-li li{
+
+    .help-info-li li {
         margin-top: 10px;
     }
-    
-    .contact-footer-li p{
+
+    .contact-footer-li p {
         margin-top: 10px;
     }
-    
-    .contact-footer-li l{
-       margin: 10px;
+
+    .contact-footer-li l {
+        margin: 10px;
     }
-    
-    .li-social{
+
+    .li-social {
         margin: 10px;
     }
 
