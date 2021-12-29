@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#menu-btn").click(function(){
+  $(".burger-menu-container").click(function(){
     $("#nav-mob").slideToggle("slow");
   });
 });
