@@ -1,0 +1,372 @@
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 769px) {
+
+    /*----- 1st content Section -----*/
+    
+    .content-section-1 {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .content-section-1 {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .content-box-fish {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-box-fish p {
+        float: left;
+        padding-top: 6px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .content-box-staff {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .content-box-staff p {
+        float: left;
+        padding-top: 6px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .content-box-price {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .content-box-price p {
+        float: left;
+        padding-top: 6px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    #price {
+        width: 25px;
+        margin-top: 9px;
+    }
+
+    #fish {
+        width: 25px;
+        margin-top: 9px;
+    }
+
+    #staff {
+        width: 25px;
+        margin-top: 9px;
+    }
+
+    .line-edit-long {
+        width: 80%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #dbe2ea;
+    }
+
+    /*----- Main Body Section -----*/
+
+    .main-section-body {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .lake-info-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
+    .lake-info-container h4 {
+        letter-spacing: 2px;
+    }
+
+    .lake-info-container h1 {
+        letter-spacing: 5px;
+        color: #86c232;
+        margin-bottom: 10px;
+    }
+
+    .lake-info-container p {
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        line-height: 23px;
+        font-size: 17px;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .lake-info-container h3 {
+        margin-bottom: 10px;
+        letter-spacing: 6px;
+    }
+
+    .lake-info-container img {
+        width: 80%;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+    }
+
+    .lake-info-left-content {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .lake-info-right-content {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+}
+
+/*----- For Tablet -----*/
+
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+
+    /*----- Hero Section -----*/
+
+    .hero-img-container img {
+        width: 100%;
+    }
+
+    /*----- 1st content Section -----*/
+
+    .content-section-1 {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .content-container-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-box {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .content-box p {
+        float: left;
+        padding-top: 6px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .box-tick {
+        width: 25px;
+        margin-top: 9px;
+    }
+
+    .line-edit-long {
+        width: 80%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #dbe2ea;
+    }
+
+    /*----- Main Body Section -----*/
+
+    .main-section-body {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .lake-info-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
+    .lake-info-container h4 {
+        letter-spacing: 2px;
+    }
+
+    .lake-info-container h1 {
+        letter-spacing: 5px;
+        color: #86c232;
+        margin-bottom: 10px;
+    }
+
+    .lake-info-container p {
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        line-height: 30px;
+        font-size: 17px;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .lake-info-container h3 {
+        margin-bottom: 10px;
+        letter-spacing: 6px;
+    }
+
+    .lake-info-container img {
+        width: 80%;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+    }
+
+    .lake-info-left-content {
+        margin-top: 40px;
+        width: 50%;
+        height: 100px;
+        float: left;
+    }
+
+    .lake-info-right-content {
+        margin-top: 40px;
+        width: 50%;
+        float: right;
+    }
+
+}
+
+/*----- For Desktop -----*/
+
+@media only screen and (min-width: 1051px) {
+
+    /*----- Hero Section -----*/
+
+    .hero-img-container {
+        background: url(/images/hero.jpeg) repeat-x;
+        background-size: cover;
+        height: 600px;
+    }
+
+    /*----- 1st content Section -----*/
+
+    .content-section-1 {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .content-container-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-box {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .content-box p {
+        float: left;
+        padding-top: 6px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .box-tick {
+        width: 25px;
+        margin-top: 9px;
+    }
+
+    .line-edit-long {
+        width: 80%;
+        margin: auto;
+        height: 1px;
+        border-top: 1px solid #dbe2ea;
+    }
+
+    /*----- Main Body Section -----*/
+
+    .main-section-body {
+        width: 1000px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .lake-info-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
+    .lake-info-container h4 {
+        letter-spacing: 2px;
+    }
+
+    .lake-info-container h1 {
+        letter-spacing: 5px;
+        color: #86c232;
+        margin-bottom: 10px;
+    }
+
+    .lake-info-container p {
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        line-height: 23px;
+        font-size: 17px;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .lake-info-container h3 {
+        margin-bottom: 10px;
+        letter-spacing: 6px;
+    }
+
+    .lake-info-container img {
+        width: 80%;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+    }
+
+    .lake-info-left-content {
+        margin-top: 40px;
+        width: 500px;
+        height: 100px;
+        float: left;
+    }
+
+    .lake-info-right-content {
+        margin-top: 40px;
+        width: 500px;
+        float: right;
+    }
+
+}

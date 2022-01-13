@@ -1,0 +1,148 @@
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 769px) {
+
+    /*----- Rules Section -----*/
+
+    .rules-container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .rules-box {
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .rules-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .rules-box p {
+        margin: 8px;
+    }
+
+    .box-line-box {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .box-line-box-short {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+}
+
+/*----- For Tablet -----*/
+@media screen and (min-width: 769px) and (max-width: 1051px) {
+
+    /*----- Rules Section -----*/
+
+    .rules-container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .rules-box {
+        width: 46%;
+        height: 400px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .rules-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .rules-box p {
+        margin: 8px;
+    }
+
+    .box-line-box {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .box-line-box-short {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+}
+
+/*----- For Desktop -----*/
+
+@media only screen and (min-width: 1051px) {
+
+    /*----- Rules Section -----*/
+
+    .rules-container {
+        width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .rules-box {
+        width: 300px;
+        height: 400px;
+        margin-left: 25px;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .rules-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .rules-box p {
+        margin: 8px;
+    }
+
+    .box-line-box {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .box-line-box-short {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+}
