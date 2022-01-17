@@ -3,70 +3,23 @@
 @media screen and (max-width: 769px) {
 
     /*----- 1st content Section -----*/
-    
-    .content-section-1 {
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-    }
 
-    .content-section-1 {
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-    }
-
-    .content-box-fish {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
+    .content-box {
+        margin-top: 20px;
         margin-bottom: 20px;
-    }
-
-    .content-box-fish p {
-        float: left;
-        padding-top: 6px;
-        padding-right: 20px;
-        font-size: 20px;
-    }
-
-    .content-box-staff {
         display: flex;
+        align-items: center;
         justify-content: center;
-        margin-top: 10px;
     }
 
-    .content-box-staff p {
+    .content-box p {
         float: left;
         padding-top: 6px;
         padding-right: 20px;
         font-size: 20px;
     }
 
-    .content-box-price {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    .content-box-price p {
-        float: left;
-        padding-top: 6px;
-        padding-right: 20px;
-        font-size: 20px;
-    }
-
-    #price {
-        width: 25px;
-        margin-top: 9px;
-    }
-
-    #fish {
-        width: 25px;
-        margin-top: 9px;
-    }
-
-    #staff {
+    .box-tick {
         width: 25px;
         margin-top: 9px;
     }
@@ -135,6 +88,52 @@
     .lake-info-right-content {
         margin-top: 40px;
         width: 100%;
+    }
+    
+    /*----- Pricing Section -----*/
+    
+    .pricing-container {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    .pricing-header-container h2{
+        letter-spacing: 2px; 
+        text-align: center;
+    }
+
+    .pricing-box {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .pricing-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-box p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .long-line {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .small-line {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
     }
 
 }
@@ -250,6 +249,60 @@
         margin-top: 40px;
         width: 50%;
         float: right;
+    }
+    
+    /*----- Pricing Section -----*/
+    
+    .pricing-container {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    .pricing-header-container h2{
+        letter-spacing: 2px; 
+        text-align: center;
+    }
+
+    .pricing-box-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing-box {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .pricing-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-box p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .long-line {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .small-line {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
     }
 
 }
@@ -368,5 +421,60 @@
         width: 500px;
         float: right;
     }
+
+    /*----- Pricing Section -----*/
+    
+    .pricing-container {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    .pricing-header-container h2{
+        letter-spacing: 2px; 
+        text-align: center;
+    }
+
+    .pricing-box-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing-box {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #86c232;
+        border-bottom: 3px solid #86c232;
+        overflow: hidden;
+    }
+
+    .pricing-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-box p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .long-line {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .small-line {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
 
 }
