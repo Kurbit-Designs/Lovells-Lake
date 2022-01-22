@@ -314,7 +314,7 @@
     /*----- Hero Section -----*/
 
     .hero-img-container {
-        background: url(/images/hero.jpeg) repeat-x;
+        background: url(../images/hero.jpeg) repeat-x;
         background-size: cover;
         height: 600px;
     }
