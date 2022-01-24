@@ -304,15 +304,7 @@
 /*----- For Desktop -----*/
 
 @media only screen and (min-width: 1051px) {
-
-    /*----- Hero Section -----*/
-
-    .hero-img-container {
-        background: url(../images/hero.jpeg) repeat-x;
-        background-size: cover;
-        height: 600px;
-    }
-
+    
     /*----- 1st content Section -----*/
 
     .content-section-1 {
