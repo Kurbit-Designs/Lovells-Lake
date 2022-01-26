@@ -97,9 +97,6 @@
         width: 90%;
         display: block;
         margin: auto;
-        border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
     }
 
     .lake-info-left-content h3 {
@@ -127,9 +124,6 @@
         width: 90%;
         display: block;
         margin: auto;
-        border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
     }
 
     .lake-info-right-content h3 {
@@ -300,17 +294,14 @@
     }
 
     .lake-info-left-content {
-        width: 100%;
-        margin: auto;
+        width: 50%;
+        float: left;
     }
 
     .lake-info-left-content img {
-        width: 80%;
-        display: block;
-        margin: auto;
-        border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
+        margin-left: 25px;
+        width: 90%;
+        float: left;
     }
 
     .lake-info-left-content h3 {
@@ -325,22 +316,20 @@
     .lake-info-left-content p {
         text-align: center;
         color: whitesmoke;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 50px;
+        padding-right: 50px;
         margin-top: 10px;
     }
 
     .lake-info-right-content {
-        margin-top: 30px;
+        width: 50%;
+        float: right;
     }
 
     .lake-info-right-content img {
-        width: 80%;
-        display: block;
-        margin: auto;
-        border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
+        margin-right: 25px;
+        width: 90%;
+        float: right;
     }
 
     .lake-info-right-content h3 {
@@ -355,8 +344,8 @@
     .lake-info-right-content p {
         text-align: center;
         color: whitesmoke;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 50px;
+        padding-right: 50px;
         margin-top: 10px;
     }
 
@@ -533,9 +522,6 @@
         margin-left: 25px;
         width: 450px;
         float: left;
-        border-radius: 10px;
-        border-top: 3px solid #86c232;
-        border-bottom: 3px solid #86c232;
     }
 
     .lake-info-left-content h3 {
@@ -564,9 +550,6 @@
         margin-right: 25px;
         width: 450px;
         float: right;
-        border-radius: 10px;
-        border-top: 3px solid #86c232;
-        border-bottom: 3px solid #86c232;
     }
 
     .lake-info-right-content h3 {
@@ -639,24 +622,5 @@
         border-top: 1px solid #dbe2ea;
         margin: auto;
     }
-    
-    .wrapper{
-        width: 500px;
-        height: 226px;
-        overflow:hidden;
-        background-color: aqua;
-        margin: 100px;
-        border-radius: 10px;
-        border-top: 3px solid #86c232;
-        border-bottom: 3px solid #86c232;
-    }
-    
-    .wrapper iframe{
-        position: relative;
-        top: -50px;
-        left: -149px;
-        
-    }
-
 
 }
