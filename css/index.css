@@ -1,6 +1,6 @@
 /*----- For Mobile -----*/
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 
     /*----- 3-tab info Section -----*/
 
@@ -67,7 +67,7 @@
     }
 
     .lake-info-container img {
-        width: 90%;
+        width: 95%;
         display: block;
         margin: auto;
         border-radius: 10px;
@@ -89,12 +89,12 @@
     }
 
     .lake-info-left-content {
-        width: 100%;
+        width: 95%;
         margin: auto;
     }
 
     .lake-info-left-content img {
-        width: 90%;
+        width: 95%;
         display: block;
         margin: auto;
     }
@@ -121,7 +121,7 @@
     }
 
     .lake-info-right-content img {
-        width: 90%;
+        width: 95%;
         display: block;
         margin: auto;
     }
@@ -272,7 +272,7 @@
     }
 
     .lake-info-container img {
-        width: 90%;
+        width: 80%;
         display: block;
         margin: auto;
         border-radius: 10px;
@@ -407,7 +407,7 @@
 
 /*----- For Desktop -----*/
 
-@media only screen and (min-width: 1051px) {
+@media only screen and (min-width: 1050px) {
 
     /*----- 3-tab info Section -----*/
 
