@@ -13,7 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 
     .top-bar-section {
         width: 100%;
@@ -465,7 +465,7 @@ html {
 
 /*----- For Desktop -----*/
 
-@media only screen and (min-width: 1051px) {
+@media only screen and (min-width: 1050px) {
 
     .top-bar-section {
         width: 100%;
