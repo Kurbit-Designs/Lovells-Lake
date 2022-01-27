@@ -270,8 +270,8 @@
         margin-bottom: 20px;
     }
 
-    .lake-info-container img {
-        width: 80%;
+     .lake-info-container img {
+        width: 70%;
         display: block;
         margin: auto;
         border-radius: 10px;
@@ -482,14 +482,22 @@
         font-size: 17px;
         margin-bottom: 20px;
     }
-
-    .lake-info-container img {
+    
+    .img-wrap-hero{
         width: 90%;
-        display: block;
         margin: auto;
+        height: 400px;
+        overflow: hidden;
         border-radius: 10px;
         border-top: 4px solid #86c232;
         border-bottom: 4px solid #86c232;
+    }
+
+
+    .lake-info-container img {
+        width: 100%;
+        position: relative;
+        top: -80px;
     }
 
     /*----- Lakes Section -----*/
