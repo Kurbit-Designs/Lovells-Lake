@@ -27,14 +27,11 @@ html {
         display: none !important;
     }
 
-    .top-bar-left-container span {
-        color: #86c232;
-    }
-
     .top-bar-right-container {
-        width: 160px;
+        width: 140px;
         margin: auto;
         padding-top: 10px;
+        overflow: hidden;
     }
 
     .social-icon-box {
@@ -559,7 +556,6 @@ html {
     .logo-section {
         width: 100%;
         height: 100px;
-        margin-top: 5px;
     }
 
     .logo-container {
