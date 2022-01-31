@@ -87,11 +87,6 @@
         padding-top: 50px;
     }
 
-    .lake-info-left-content {
-        width: 95%;
-        margin: auto;
-    }
-
     .lake-info-left-content img {
         width: 95%;
         display: block;
@@ -145,13 +140,22 @@
     /*----- Pricing Section -----*/
 
     .pricing-container {
-        margin-bottom: 40px;
-        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     .pricing-header-container h2 {
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
+        color: #86c232;
+    }
+
+    .line-edit {
+        width: 40%;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
     }
 
     .pricing-box {
@@ -270,7 +274,7 @@
         margin-bottom: 20px;
     }
 
-     .lake-info-container img {
+    .lake-info-container img {
         width: 70%;
         display: block;
         margin: auto;
@@ -350,13 +354,22 @@
     /*----- Pricing Section -----*/
 
     .pricing-container {
-        margin-bottom: 40px;
-        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     .pricing-header-container h2 {
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
+        color: #86c232;
+    }
+
+    .line-edit {
+        width: 30%;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
     }
 
     .pricing-box-wrapper {
@@ -482,8 +495,8 @@
         font-size: 17px;
         margin-bottom: 20px;
     }
-    
-    .img-wrap-hero{
+
+    .img-wrap-hero {
         width: 90%;
         margin: auto;
         height: 400px;
@@ -492,7 +505,6 @@
         border-top: 4px solid #86c232;
         border-bottom: 4px solid #86c232;
     }
-
 
     .lake-info-container img {
         width: 100%;
@@ -577,13 +589,22 @@
     /*----- Pricing Section -----*/
 
     .pricing-container {
-        margin-bottom: 40px;
-        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     .pricing-header-container h2 {
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
+        color: #86c232;
+    }
+
+    .line-edit {
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
     }
 
     .pricing-box-wrapper {
