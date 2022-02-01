@@ -92,7 +92,7 @@ html {
     .logo-container {
         width: 100%;
         margin: auto;
-        height: 80px;
+        height: 65px;
         overflow: hidden;
     }
 
@@ -100,8 +100,8 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 18px;
-        margin-bottom: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .burger-menu-container {
