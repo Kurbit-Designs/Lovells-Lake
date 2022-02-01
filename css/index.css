@@ -52,8 +52,8 @@
     }
 
     .lake-info-container h1 {
-        letter-spacing: 5px;
-        color: #86c232;
+        letter-spacing: 1px;
+        color: #0e9ad5;
         margin-bottom: 10px;
     }
 
@@ -71,8 +71,8 @@
         display: block;
         margin: auto;
         border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
+        border-top: 4px solid #0e9ad5;
+        border-bottom: 4px solid #0e9ad5;
     }
 
     /*----- Lakes Section -----*/
@@ -81,8 +81,8 @@
         width: 100%;
         background-color: #30343a;
         overflow: hidden;
-        border-top: 2px solid #86c232;
-        border-bottom: 2px solid #86c232;
+        border-top: 2px solid #0e9ad5;
+        border-bottom: 2px solid #0e9ad5;
         padding-bottom: 50px;
         padding-top: 50px;
     }
@@ -147,7 +147,7 @@
     .pricing-header-container h2 {
         letter-spacing: 1px;
         text-align: center;
-        color: #86c232;
+        color: #0e9ad5;
     }
 
     .line-edit {
@@ -165,8 +165,8 @@
         text-align: center;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 10px;
-        border-top: 3px solid #86c232;
-        border-bottom: 3px solid #86c232;
+        border-top: 3px solid #0e9ad5;
+        border-bottom: 3px solid #0e9ad5;
         overflow: hidden;
     }
 
@@ -260,8 +260,8 @@
     }
 
     .lake-info-container h1 {
-        letter-spacing: 5px;
-        color: #86c232;
+        letter-spacing: 1px;
+        color: #0e9ad5;
         margin-bottom: 10px;
     }
 
@@ -279,8 +279,8 @@
         display: block;
         margin: auto;
         border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
+        border-top: 4px solid #0e9ad5;
+        border-bottom: 4px solid #0e9ad5;
     }
 
     /*----- Lakes Section -----*/
@@ -289,8 +289,8 @@
         width: 100%;
         background-color: #30343a;
         overflow: hidden;
-        border-top: 2px solid #86c232;
-        border-bottom: 2px solid #86c232;
+        border-top: 2px solid #0e9ad5;
+        border-bottom: 2px solid #0e9ad5;
         padding-bottom: 50px;
         padding-top: 50px;
     }
@@ -387,8 +387,8 @@
         text-align: center;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 10px;
-        border-top: 3px solid #86c232;
-        border-bottom: 3px solid #86c232;
+        border-top: 3px solid #0e9ad5;
+        border-bottom: 3px solid #0e9ad5;
         overflow: hidden;
     }
 
@@ -482,8 +482,8 @@
     }
 
     .lake-info-container h1 {
-        letter-spacing: 5px;
-        color: #86c232;
+        letter-spacing: 1px;
+        color: #0e9ad5;
         margin-bottom: 10px;
     }
 
@@ -502,8 +502,8 @@
         height: 400px;
         overflow: hidden;
         border-radius: 10px;
-        border-top: 4px solid #86c232;
-        border-bottom: 4px solid #86c232;
+        border-top: 4px solid #0e9ad5;
+        border-bottom: 4px solid #0e9ad5;
     }
 
     .lake-info-container img {
@@ -518,8 +518,8 @@
         width: 100%;
         background-color: #30343a;
         overflow: hidden;
-        border-top: 2px solid #86c232;
-        border-bottom: 2px solid #86c232;
+        border-top: 2px solid #0e9ad5;
+        border-bottom: 2px solid #0e9ad5;
         padding-bottom: 50px;
         padding-top: 50px;
     }
@@ -596,7 +596,7 @@
     .pricing-header-container h2 {
         letter-spacing: 1px;
         text-align: center;
-        color: #86c232;
+        color: #0e9ad5;
     }
 
     .line-edit {
@@ -622,8 +622,8 @@
         text-align: center;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 10px;
-        border-top: 3px solid #86c232;
-        border-bottom: 3px solid #86c232;
+        border-top: 3px solid #0e9ad5;
+        border-bottom: 3px solid #0e9ad5;
         overflow: hidden;
     }
 
@@ -648,5 +648,5 @@
         border-top: 1px solid #dbe2ea;
         margin: auto;
     }
-
+    
 }
