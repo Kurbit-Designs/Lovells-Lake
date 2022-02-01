@@ -67,14 +67,10 @@
     }
 
     .lake-info-container img {
-        width: 95%;
+        width: 100%;
         display: block;
         margin: auto;
-        border-radius: 10px;
-        border-top: 4px solid #0e9ad5;
-        border-bottom: 4px solid #0e9ad5;
     }
-
     /*----- Lakes Section -----*/
 
     .lakes-section {
@@ -88,7 +84,7 @@
     }
 
     .lake-info-left-content img {
-        width: 95%;
+        width: 100%;
         display: block;
         margin: auto;
     }
@@ -115,7 +111,7 @@
     }
 
     .lake-info-right-content img {
-        width: 95%;
+        width: 100%;
         display: block;
         margin: auto;
     }
