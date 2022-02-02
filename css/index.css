@@ -150,7 +150,6 @@
     .google-container {
         margin: auto;
         width: 98%;
-        height: 60px;
         background-color: #f3f3f3;
         margin-top: 20px;
         border-top: 2px solid #0e9ad5;
@@ -160,10 +159,9 @@
     }
 
     .google-container h3 {
-        float: left;
         font-size: 16px;
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .write-review-btn {
@@ -173,9 +171,9 @@
         border-radius: 3px;
         background-color: #197bff;
         color: whitesmoke;
-        float: right;
-        margin-top: 15px;
-        margin-right: 4px;
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
     }
 
     .write-review-btn:hover {
