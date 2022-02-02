@@ -1,0 +1,180 @@
+/*----- Pricing Section desk -----*/
+
+    .pricing-container {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .pricing-header-container h2 {
+        letter-spacing: 1px;
+        text-align: center;
+        color: #0e9ad5;
+    }
+
+    .line-edit {
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
+    }
+
+    .pricing-box-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing-box {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #0e9ad5;
+        border-bottom: 3px solid #0e9ad5;
+        overflow: hidden;
+    }
+
+    .pricing-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-box p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .long-line {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .small-line {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    /*----- Pricing Section tab -----*/
+
+    .pricing-container {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .pricing-header-container h2 {
+        letter-spacing: 1px;
+        text-align: center;
+        color: #86c232;
+    }
+
+    .line-edit {
+        width: 30%;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
+    }
+
+    .pricing-box-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricing-box {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #0e9ad5;
+        border-bottom: 3px solid #0e9ad5;
+        overflow: hidden;
+    }
+
+    .pricing-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-box p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .long-line {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .small-line {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+/*----- Pricing Section mob -----*/
+
+    .pricing-container {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .pricing-header-container h2 {
+        letter-spacing: 1px;
+        text-align: center;
+        color: #0e9ad5;
+    }
+
+    .line-edit {
+        width: 40%;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
+    }
+
+    .pricing-box {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        border-top: 3px solid #0e9ad5;
+        border-bottom: 3px solid #0e9ad5;
+        overflow: hidden;
+    }
+
+    .pricing-box h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pricing-box p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .long-line {
+        width: 90%;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
+
+    .small-line {
+        width: 50px;
+        border-top: 1px solid #dbe2ea;
+        margin: auto;
+    }
