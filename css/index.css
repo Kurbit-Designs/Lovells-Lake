@@ -233,6 +233,25 @@
         padding-right: 30px;
         padding-bottom: 20px;
     }
+    
+    /*----- Associated Section -----*/
+    
+    .associated-section{
+        width: 100%;
+        overflow: hidden;
+        border-top: 2px solid #0e9ad5;
+        border-bottom: 2px solid #0e9ad5;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    
+    .associated-container{
+        width: 100%;
+        background-color: aqua;
+        overflow: hidden;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
 
 }
 
