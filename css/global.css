@@ -25,7 +25,18 @@ html {
     }
 
     .top-bar-left-container {
-        display: none !important;
+        float: left;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    
+    .top-bar-left-container h3 {
+        color: whitesmoke;
+        letter-spacing: 1px;
+    }
+
+    .top-bar-left-container span {
+        color: #0e9ad5;
     }
 
     .top-bar-right-container {
