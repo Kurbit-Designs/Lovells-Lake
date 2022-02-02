@@ -30,7 +30,8 @@ html {
 
     .top-bar-right-container {
         width: 30px;
-        margin: auto;
+        margin-right: 20px;
+        float: right;
         overflow: hidden;
     }
 
