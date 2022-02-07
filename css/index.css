@@ -433,6 +433,7 @@
         border-radius: 10px;
         border-top: 4px solid #0e9ad5;
         border-bottom: 4px solid #0e9ad5;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     /*----- Lakes Section -----*/
@@ -456,6 +457,7 @@
         margin-left: 25px;
         width: 90%;
         float: left;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     .lake-info-left-content h3 {
@@ -484,6 +486,7 @@
         margin-right: 25px;
         width: 90%;
         float: right;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     .lake-info-right-content h3 {
@@ -807,6 +810,7 @@
         border-radius: 10px;
         border-top: 4px solid #0e9ad5;
         border-bottom: 4px solid #0e9ad5;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     .lake-info-container img {
@@ -842,6 +846,7 @@
         margin-left: 25px;
         width: 450px;
         float: left;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     .lake-info-left-content h3 {
@@ -870,6 +875,7 @@
         margin-right: 25px;
         width: 450px;
         float: right;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     .lake-info-right-content h3 {
