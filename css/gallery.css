@@ -1,13 +1,13 @@
 /*----- For Mobile -----*/
 
 @media screen and (max-width: 768px) {
-    
+
     /*----- Gallery Section -----*/
 
     .gallery-section {
         margin-bottom: 30px;
     }
-    
+
     .gallery-container {
         width: 100%;
         margin: auto;
@@ -29,35 +29,28 @@
         border-top: 1px solid #dbe2ea;
         margin-bottom: 30px;
     }
-    
-     .img-container{
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 330px;
-    margin-top: 10px;
-    float: left;
-    text-align: center;
+
+    .img-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
     }
-    
-    .img-container img{
+
+    .img-container img {
         width: 100%;
     }
-    
-    .wrapper{
-        display: flex;
-        justify-content: center;
-    }
+
 }
 
 /*----- For Tablet -----*/
 @media screen and (min-width: 769px) and (max-width: 1050px) {
-    
+
     /*----- Gallery Section -----*/
 
     .gallery-section {
         margin-bottom: 30px;
     }
-    
+
     .gallery-container {
         width: 100%;
         margin: auto;
@@ -79,25 +72,25 @@
         border-top: 1px solid #dbe2ea;
         margin-bottom: 30px;
     }
-    
-     .img-container{
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 330px;
-    margin-top: 10px;
-    float: left;
-    text-align: center;
+
+    .img-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 330px;
+        margin-top: 10px;
+        float: left;
+        text-align: center;
     }
-    
-    .img-container img{
+
+    .img-container img {
         width: 100%;
     }
-    
-    .wrapper{
+
+    .wrapper {
         display: flex;
         justify-content: center;
     }
-    
+
 }
 
 /*----- For Desktop -----*/
@@ -109,7 +102,7 @@
     .gallery-section {
         margin-bottom: 30px;
     }
-    
+
     .gallery-container {
         width: 1000px;
         overflow: hidden;
@@ -131,14 +124,14 @@
         border-top: 1px solid #dbe2ea;
         margin-bottom: 30px;
     }
-    
-     .img-container{
+
+    .img-container {
         display: flex;
         justify-content: center;
         display: inline;
     }
-    
-    .img-container img{
+
+    .img-container img {
         width: 330px;
         margin-top: 10px;
     }
