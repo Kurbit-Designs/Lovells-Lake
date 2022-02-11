@@ -334,7 +334,7 @@
         margin-bottom: 10px;
     }
 
-    .associated-container a {
+    .associated-container {
         display: block;
         text-align: center;
         margin-top: 20px;
@@ -694,7 +694,7 @@
     }
 
     .associated-container {
-        width: 90%;
+        width: 100%;
         margin: auto;
         overflow: hidden;
         padding-top: 30px;
@@ -705,7 +705,7 @@
         margin-bottom: 10px;
     }
 
-    .associated-container a {
+    .associated-container img {
         margin: 10px;
     }
 
@@ -1102,7 +1102,7 @@
         margin-bottom: 10px;
     }
 
-    .associated-container a {
+    .associated-container img {
         margin: 10px;
     }
 
