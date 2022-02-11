@@ -1,4 +1,8 @@
-/*----- Pricing Section desk -----*/
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 768px) {
+    
+    /*----- Pricing Section -----*/
 
 .pricing-container {
     margin-bottom: 30px;
@@ -12,25 +16,17 @@
 }
 
 .line-edit {
-    width: 300px;
+    width: 40%;
     height: 1px;
     margin: auto;
     margin-top: 4px;
     border-top: 1px solid #dbe2ea;
 }
 
-.pricing-box-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
 .pricing-box {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 300px;
-    margin-left: 25px;
+    width: 90%;
+    margin: auto;
     margin-top: 20px;
-    float: left;
     text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
@@ -61,7 +57,12 @@
     margin: auto;
 }
 
-/*----- Pricing Section tab -----*/
+}
+
+/*----- For Tablet -----*/
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+    
+    /*----- Pricing Section -----*/
 
 .pricing-container {
     margin-bottom: 30px;
@@ -124,7 +125,14 @@
     margin: auto;
 }
 
-/*----- Pricing Section mob -----*/
+
+}
+
+/*----- For Desktop -----*/
+
+@media only screen and (min-width: 1051px) {
+    
+    /*----- Pricing Section -----*/
 
 .pricing-container {
     margin-bottom: 30px;
@@ -138,17 +146,25 @@
 }
 
 .line-edit {
-    width: 40%;
+    width: 300px;
     height: 1px;
     margin: auto;
     margin-top: 4px;
     border-top: 1px solid #dbe2ea;
 }
 
+.pricing-box-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .pricing-box {
-    width: 90%;
-    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    margin-left: 25px;
     margin-top: 20px;
+    float: left;
     text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
@@ -177,4 +193,6 @@
     width: 50px;
     border-top: 1px solid #dbe2ea;
     margin: auto;
+}
+    
 }
