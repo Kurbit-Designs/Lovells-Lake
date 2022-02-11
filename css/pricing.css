@@ -13,6 +13,15 @@
     letter-spacing: 1px;
     text-align: center;
     color: #0e9ad5;
+    margin-top: 20px;
+}
+    
+.pricing-header-container p {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 15px;
+    width: 90%;
+    margin: auto;
 }
 
 .line-edit {
@@ -72,7 +81,15 @@
 .pricing-header-container h2 {
     letter-spacing: 1px;
     text-align: center;
-    color: #86c232;
+    color: #0e9ad5;
+}
+    
+.pricing-header-container p {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 15px;
+    width: 80%;
+    margin: auto;
 }
 
 .line-edit {
@@ -86,6 +103,7 @@
 .pricing-box-wrapper {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .pricing-box {
@@ -143,6 +161,15 @@
     letter-spacing: 1px;
     text-align: center;
     color: #0e9ad5;
+    margin-top: 30px;
+}
+    
+.pricing-header-container p {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 15px;
+    width: 800px;
+    margin: auto;
 }
 
 .line-edit {
@@ -156,6 +183,7 @@
 .pricing-box-wrapper {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .pricing-box {
