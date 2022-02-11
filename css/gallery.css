@@ -1,0 +1,146 @@
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 768px) {
+    
+    /*----- Gallery Section -----*/
+
+    .gallery-section {
+        margin-bottom: 30px;
+    }
+    
+    .gallery-container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .header h2 {
+        letter-spacing: 1px;
+        text-align: center;
+        color: #0e9ad5;
+        margin-top: 30px;
+    }
+
+    .line-edit {
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
+        margin-bottom: 30px;
+    }
+    
+     .img-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 330px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    }
+    
+    .img-container img{
+        width: 100%;
+    }
+    
+    .wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+/*----- For Tablet -----*/
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+    
+    /*----- Gallery Section -----*/
+
+    .gallery-section {
+        margin-bottom: 30px;
+    }
+    
+    .gallery-container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .header h2 {
+        letter-spacing: 1px;
+        text-align: center;
+        color: #0e9ad5;
+        margin-top: 30px;
+    }
+
+    .line-edit {
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
+        margin-bottom: 30px;
+    }
+    
+     .img-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 330px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    }
+    
+    .img-container img{
+        width: 100%;
+    }
+    
+    .wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+/*----- For Desktop -----*/
+
+@media only screen and (min-width: 1051px) {
+
+    /*----- Gallery Section -----*/
+
+    .gallery-section {
+        margin-bottom: 30px;
+    }
+    
+    .gallery-container {
+        width: 1000px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .header h2 {
+        letter-spacing: 1px;
+        text-align: center;
+        color: #0e9ad5;
+        margin-top: 30px;
+    }
+
+    .line-edit {
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-top: 4px;
+        border-top: 1px solid #dbe2ea;
+        margin-bottom: 30px;
+    }
+    
+     .img-container{
+        display: flex;
+        justify-content: center;
+        display: inline;
+    }
+    
+    .img-container img{
+        width: 330px;
+        margin-top: 10px;
+    }
+}
