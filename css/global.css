@@ -40,7 +40,7 @@ html {
     }
 
     .top-bar-right-container {
-        width: 30px;
+        width: 100px;
         margin-right: 10px;
         float: right;
         overflow: hidden;
@@ -52,6 +52,7 @@ html {
         float: right;
         border-radius: 50px;
         overflow: hidden;
+        margin-left: 10px;
     }
 
     .social-icon-box:hover {
