@@ -5,7 +5,7 @@
     /*----- Gallery Section -----*/
 
     .gallery-section {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .gallery-container {
@@ -18,7 +18,7 @@
         letter-spacing: 1px;
         text-align: center;
         color: #0e9ad5;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .line-edit {
