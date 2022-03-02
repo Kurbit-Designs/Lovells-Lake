@@ -233,7 +233,7 @@
         padding-right: 30px;
         padding-bottom: 20px;
     }
-    
+
     /*----- Contact Section -----*/
 
     .contact-section {
@@ -264,6 +264,11 @@
     .contact-container-left p {
         color: whitesmoke;
         padding-top: 10px;
+    }
+
+    .underline {
+        color: whitesmoke;
+        text-decoration: underline;
     }
 
     .emergency {
@@ -306,11 +311,12 @@
 
     #fb-link {
         position: relative;
-        top: 10px;
+        top: 5px;
+        color: #3b5998;
     }
 
     #fb-link:hover {
-        color: #3b5998;
+        opacity: 0.9;
     }
 
     /*----- Associated Section -----*/
@@ -601,7 +607,7 @@
         padding-right: 30px;
         padding-bottom: 20px;
     }
-    
+
     /*----- Contact Section -----*/
 
     .contact-section {
@@ -635,6 +641,11 @@
     .contact-container-left p {
         color: whitesmoke;
         padding-top: 10px;
+    }
+
+    .underline {
+        color: whitesmoke;
+        text-decoration: underline;
     }
 
     .emergency {
@@ -677,11 +688,12 @@
 
     #fb-link {
         position: relative;
-        top: 10px;
+        top: 5px;
+        color: #3b5998;
     }
 
     #fb-link:hover {
-        color: #3b5998;
+        opacity: 0.9;
     }
 
     /*----- Associated Section -----*/
@@ -1038,6 +1050,11 @@
         color: #A61414;
     }
 
+    .underline {
+        color: whitesmoke;
+        text-decoration: underline;
+    }
+
     .contact-container-right {
         width: 500px;
         margin-top: 20px;
@@ -1074,11 +1091,12 @@
 
     #fb-link {
         position: relative;
-        top: 10px;
+        top: 5px;
+        color: #3b5998;
     }
 
     #fb-link:hover {
-        color: #3b5998;
+        opacity: 0.9;
     }
 
     /*----- Associated Section -----*/
