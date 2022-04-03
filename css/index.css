@@ -59,8 +59,8 @@
 
     .lake-info-container p {
         margin-top: 10px;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 5%;
+        padding-right: 5%;
         line-height: 23px;
         font-size: 17px;
         margin-bottom: 20px;
@@ -106,8 +106,8 @@
     .lake-info-left-content p {
         text-align: center;
         color: whitesmoke;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 5%;
+        padding-right: 5%;
         margin-top: 10px;
     }
 
@@ -133,8 +133,8 @@
     .lake-info-right-content p {
         text-align: center;
         color: whitesmoke;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 5%;
+        padding-right: 5%;
         margin-top: 10px;
     }
 
