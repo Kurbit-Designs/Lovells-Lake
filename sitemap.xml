@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://lovellslakes.co.uk/</loc>
+  <lastmod>2022-04-17T18:01:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://lovellslakes.co.uk/index.html</loc>
+  <lastmod>2022-04-17T18:01:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lovellslakes.co.uk/rules.html</loc>
+  <lastmod>2022-04-17T18:01:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lovellslakes.co.uk/pricing.html</loc>
+  <lastmod>2022-04-17T18:01:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lovellslakes.co.uk/gallery.html</loc>
+  <lastmod>2022-04-17T18:01:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lovellslakes.co.uk/location.html</loc>
+  <lastmod>2022-04-17T18:01:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
